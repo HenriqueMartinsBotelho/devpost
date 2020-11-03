@@ -1,0 +1,115 @@
+.newpost {
+  height: 460px;
+  background: #4c5059;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+}
+
+.postarea {
+  width: 600px;
+  max-width: 700px;
+  background-color: #4c5059;
+  padding: 10px 20px;
+  word-wrap: break-word;
+}
+
+.newpost span {
+  padding-bottom: 10px;
+  font-style: italic;
+  color: #fff;
+}
+
+.newpost textarea {
+  resize: none;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 15px;
+  background: #fafafa;
+  border: 0;
+  outline: none;
+}
+
+.newpost button {
+  height: 35px;
+  border: 0;
+  background-color: #7289da;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.4s;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  padding: 10px 0px;
+}
+
+.newpost button:hover {
+  background-color: #89a1f8;
+}
+
+.action-post button {
+  cursor: pointer;
+  border: 0;
+  background: transparent;
+  color: #ffb800;
+  outline: none;
+  padding: 0px 10px;
+}
+
+.post {
+  margin-bottom: 15px;
+}
+
+.post h1 {
+  cursor: pointer;
+}
+
+.post div {
+  margin: 0;
+  padding: 0;
+}
+.post p {
+  color: #fff;
+  white-space: pre-line;
+}
+
+.post:not(:first-child) {
+  border-top: 1px solid rgb(175, 175, 175);
+}
+
+.postarea.loading {
+  width: 600px;
+}
+
+.postarea.loading h2 {
+  text-align: center;
+}
+
+.newpost h2 {
+  color: #fff;
+}
+
+.postarea h2 {
+  color: #fff;
+  padding-right: 25px;
+}
+.postarea h1 {
+  color: #fff;
+  padding-right: 25px;
+}
+
+.headerPerfil {
+  margin-bottom: 15px;
+}
+
+.headerPerfil h2 {
+  color: #fff;
+}
+.headerPerfil span {
+  color: #fff;
+}
+.headerPerfil span strong {
+  color: #ffb800;
+}
